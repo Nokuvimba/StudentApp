@@ -67,7 +67,7 @@ public class Student {
         this.email= scanner.nextLine();
 
         System.out.print("Enter your course: ");
-        this.email= scanner.nextLine();
+        this.course= scanner.nextLine();
     }
 
 }
