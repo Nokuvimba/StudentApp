@@ -2,6 +2,7 @@ package ie.atu;
 
 import java.util.Scanner;
 public class Student {
+
     String firstName;
     String lastName;
     String email;
@@ -10,6 +11,7 @@ public class Student {
     public Student(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+
     }
     public Student(String firstName, String lastName, String email, String course) {
         this.firstName = firstName;
@@ -19,6 +21,10 @@ public class Student {
     }
 
     public Student() {
+        this.lastName= " ";
+        this.firstName=" ";
+        this.email=" ";
+        this.course=" ";
     }
 
     public String getFirstName() {
@@ -38,6 +44,14 @@ public class Student {
     }
 
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
+    }
+
 
     public void getStudentDetails(){
         Scanner scanner = new Scanner(System.in);
@@ -54,5 +68,24 @@ public class Student {
         System.out.print("Enter your course: ");
         this.course= scanner.nextLine();
     }
+
+    public void student2() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your first name:");
+        String firstName= scanner.nextLine();
+        System.out.println("Enter your last name:");
+        String lastName = scanner.nextLine();
+        System.out.println("Enter your email:");
+        setEmail(scanner.nextLine());
+        System.out.println("Enter your course:");
+        setCourse(scanner.nextLine());
+
+        System.out.println("Second student details: "+ " \n");
+        System.out.println("Student name " + firstName +" "+ lastName);
+        System.out.println("Student email " + getEmail());
+        System.out.println("Student course " + getCourse()+"\n");
+
+    }
+
 
 }
