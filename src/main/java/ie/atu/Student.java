@@ -38,21 +38,6 @@ public class Student {
     }
 
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setCourse(String course) {
-        this.course = course;
-    }
 
     public void getStudentDetails(){
         Scanner scanner = new Scanner(System.in);

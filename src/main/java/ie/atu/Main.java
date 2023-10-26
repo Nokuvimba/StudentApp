@@ -12,6 +12,5 @@ public class Main {
         System.out.println("Student email: " + s1.getEmail() );
         System.out.println("Student course: " + s1.getCourse());
 
-
     }
 }
