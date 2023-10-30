@@ -68,24 +68,53 @@ public class Student {
         System.out.print("Enter your course: ");
         this.course= scanner.nextLine();
     }
-
+    public void display1(){
+        System.out.println("First student details: ");
+        System.out.println("Student  name:" + " " + getFirstName() + " " + getLastName() );
+        System.out.println("Student email: " + getEmail() );
+        System.out.println("Student course: " + getCourse() + "\n");
+    }
+//second student
     public void student2() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your first name:");
-        String firstName= scanner.nextLine();
+        firstName=scanner.nextLine();
         System.out.println("Enter your last name:");
-        String lastName = scanner.nextLine();
+        lastName = scanner.nextLine();
         System.out.println("Enter your email:");
         setEmail(scanner.nextLine());
         System.out.println("Enter your course:");
         setCourse(scanner.nextLine());
 
-        System.out.println("Second student details: "+ " \n");
-        System.out.println("Student name " + firstName +" "+ lastName);
-        System.out.println("Student email " + getEmail());
-        System.out.println("Student course " + getCourse()+"\n");
+
 
     }
+    public void display2(){
+        System.out.println("Second student details: ");
+        System.out.println("Student name "+ firstName+" "+ lastName);
+        System.out.println("Student email " + getEmail());
+        System.out.println("Student course " + getCourse()+"\n");
+    }
 
+//third student
+public void student3(){
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter your first name:");
+    firstName=scanner.nextLine();
+    System.out.println("Enter your last name:");
+    lastName = scanner.nextLine();
+    System.out.println("Enter your email:");
+    email=scanner.nextLine();
+    System.out.println("Enter your course:");
+    course=scanner.nextLine();
+
+
+}
+public void display3(){
+    System.out.println("Third student details: ");
+    System.out.println("Student name "+ firstName+" "+ lastName);
+    System.out.println("Student email " + email);
+    System.out.println("Student course " + course+"\n");
+}
 
 }
