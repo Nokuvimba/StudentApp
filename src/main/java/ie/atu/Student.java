@@ -91,9 +91,9 @@ public class Student {
     }
     public void display2(){
         System.out.println("Second student details: ");
-        System.out.println("Student name "+ firstName+" "+ lastName);
-        System.out.println("Student email " + getEmail());
-        System.out.println("Student course " + getCourse()+"\n");
+        System.out.println("Student name: "+ firstName+" "+ lastName);
+        System.out.println("Student email: " + getEmail());
+        System.out.println("Student course: " + getCourse()+"\n");
     }
 
 //third student
@@ -112,9 +112,9 @@ public void student3(){
 }
 public void display3(){
     System.out.println("Third student details: ");
-    System.out.println("Student name "+ firstName+" "+ lastName);
-    System.out.println("Student email " + email);
-    System.out.println("Student course " + course+"\n");
+    System.out.println("Student name: "+ firstName+" "+ lastName);
+    System.out.println("Student email: " + email);
+    System.out.println("Student course: " + course+"\n");
 }
 
 }

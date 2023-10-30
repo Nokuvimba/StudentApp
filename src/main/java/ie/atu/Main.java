@@ -5,7 +5,6 @@ package ie.atu;
 public class Main {
     public static void main(String[] args) {
 
-
         //first student details
         Student s1= new Student();
         s1.getStudentDetails();
@@ -20,6 +19,7 @@ public class Main {
         Student s3= new Student(" "," "," "," ");
          s3.student3();
         System.out.println(" ");
+
         //displaying the student details
          s1.display1();
          s2.display2();
