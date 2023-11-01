@@ -92,7 +92,7 @@ public void student3(){
 }
 //displaying student details
     public void DetailsDisplay(){
-        //  System.out.println("First student details: ");
+
         System.out.println("Student  name:" + " " + getFirstName() + " " + getLastName() );
         System.out.println("Student email: " + getEmail() );
         System.out.println("Student course: " + getCourse() + "\n");
