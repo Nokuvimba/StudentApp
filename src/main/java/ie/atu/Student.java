@@ -53,7 +53,7 @@ public class Student {
     }
 
 
-    public void getStudentDetails(){
+    public void student1(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your first name: ");
@@ -73,9 +73,9 @@ public class Student {
     public void student2() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your first name:");
-        String student2FirstName=scanner.nextLine();
+        firstName=scanner.nextLine();
         System.out.println("Enter your last name:");
-        String student2LastName = scanner.nextLine();
+        lastName = scanner.nextLine();
         System.out.println("Enter your email:");
         setEmail(scanner.nextLine());
         System.out.println("Enter your course:");
@@ -90,13 +90,13 @@ public class Student {
 public void student3(){
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter your first name:");
-    String student3firstName =scanner.nextLine();
+    firstName =scanner.nextLine();
     System.out.println("Enter your last name:");
-    String student3lastName = scanner.nextLine();
+    lastName = scanner.nextLine();
     System.out.println("Enter your email:");
-    String student3email =scanner.nextLine();
+    email =scanner.nextLine();
     System.out.println("Enter your course:");
-    String student3course =scanner.nextLine();
+    course =scanner.nextLine();
 
 }
 //displaying student details
